@@ -17,9 +17,9 @@ public class JdbcConfig {
     public DataSource getDatasource(){
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://db4free.net/demo_demo");
-        ds.setUsername("okroooot");
-        ds.setPassword("00000000");
+        ds.setUrl("jdbc:mysql://localhost:3307/springJdbc");
+        ds.setUsername("root");
+        ds.setPassword("0000");
         return ds;
     }
 
